@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-base-200 font-serif text-lg">
-      <div className="container mx-3 lg:mx-auto py-10">
+    <div className="bg-base-200 font-serif text-lg overflow-hidden">
+      <div className="container mx-5 lg:mx-auto py-10">
         <div className="grid row-gap-10 mb-8 lg:grid-cols-6">
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
             <div>
@@ -171,7 +171,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="md:max-w-md lg:col-span-2">
+          <div className="lg:col-span-2">
             <span className="text-base font-bold tracking-wide text-black">
               Subscribe for updates
             </span>
@@ -184,7 +184,7 @@ const Footer = () => {
               />
               <button
                 type="submit"
-                className="inline-flex items-center justify-center h-12 px-6 font-bold tracking-wide  transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                className="flex items-center justify-center h-12 px-6 font-bold tracking-wide transition duration-200 rounded shadow-md w-full md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               >
                 Subscribe
               </button>

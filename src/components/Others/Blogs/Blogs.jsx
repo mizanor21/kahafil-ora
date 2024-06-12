@@ -4,13 +4,13 @@ import img3 from "../../../assets/images/blog3.webp";
 
 const Blogs = () => {
   return (
-    <div className="container mx-auto my-20">
-      <h2 className="text-3xl font-serif mb-5 border-l-4 pl-3 border-green-600">
+    <div className="container lg:mx-auto my-20 overflow-hidden">
+      <h2 className="mx-5 md:mx-0 text-3xl font-serif mb-5 border-l-4 pl-3 border-green-600">
         Blogs
       </h2>
-      <div className=" mx-auto sm:max-w-xl md:max-w-full">
-        <div className="grid gap-3 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
-          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm ">
+      <div className="mx-5 md:mx-auto">
+        <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3  lg:max-w-full overflow-hidden">
+          <div className="transition-shadow duration-300 bg-white rounded shadow-sm ">
             <img src={img1} className="object-cover w-full h-64" alt="" />
             <div className="p-5 border border-t-0">
               <p className="mb-3 text-xs font-semibold tracking-wide uppercase">

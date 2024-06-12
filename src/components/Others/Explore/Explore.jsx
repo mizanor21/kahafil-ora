@@ -1,13 +1,13 @@
 const Explore = () => {
   return (
-    <div>
-      <div className="bg-slate-50 py-10 px-5 md:px-20 lg:px-40">
-        <div className="ml-7 font-serif">
-          <h2 className="text-3xl font-serif mb-5 border-l-4 pl-3 border-green-600">
+    <div className="bg-slate-50">
+      <div className=" py-5 lg:py-20 container mx-auto ">
+        <div className=" font-serif">
+          <h2 className="mx-5 md:mx-0 text-3xl font-serif mb-5 border-l-4 pl-3 border-green-600">
             Know more about me
           </h2>
         </div>
-        <div className="mt-10 ml-7">
+        <div className="mt-10 mx-5 lg:mx-0">
           <h2 className="text-2xl font-semibold text-black font-serif mb-4">
             I&apos;m Kahafil Ora, a managing director
           </h2>

@@ -11,10 +11,10 @@ const Banner = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 500,
-    autoplaySpeed: 2000,
+    speed: 1000,
+    autoplaySpeed: 3000,
     cssEase: "linear",
-    delay: 250,
+    delay: 500,
   };
 
   return (
